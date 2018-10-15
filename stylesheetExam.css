@@ -1,0 +1,29 @@
+/* Centralising the main headline */ 
+#headline{
+    text-align: center;
+}
+    
+/*Left-align log-in of existing users */
+.floatLeft{
+    float: left;
+    width: 50%; 
+    text-align: center;
+}
+
+/*Right-align sign-up of new users */
+.floatRight{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+/* Display sign-up result*/ 
+#signupResult {
+    text-align: center;
+}
+
+/*Background image*/ 
+body {
+    background-image: url("nyhavnimg.jpg");
+}
+
