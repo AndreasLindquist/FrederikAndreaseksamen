@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+/*Align headline text in middle */
+h1 {
+    text-align: center;
+}
+
+/*Align sub-headline (events) in the middle */
+h2 {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    border: solid grey 2px;
+}
+
+.column
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Left-align filter and search */
+#left{
+    float: left;
+    width: 20%; 
+    text-align: center;
+}
+
+/*Middle-align list of events */
+#middle{
+    float: middle;
+    width: 60%; 
+    text-align: center;
+}
+
+/*Right-align calendar */
+#right{
+    float: right;
+    width: 20%; 
+    text-align: center;
+    align-content: center;
+}
+
+#calendar {
+}
+
+#calendar-container {
+    padding: 10px; 
+    width: 250px; 
+    height: 250px;
+    text-align: center; 
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 16px; 
+    font-family: Arial; 
+    background-image: linear-gradient(#ffffff, #d3d3d3); 
+}
+
+#calendar-container>div{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#calendar-month-year{
+    margin: 5px; 
+}
+
+#calendar-dates>table>tr>td{
+    padding: 5px; 
+    }    
+

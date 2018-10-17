@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheetEventPage.css">
+    <script src="events.js"></script>
+    <title>CopenhagenXperience</title>
+</head>
+<body>
+    <h1>CopenhagenXperience</h1>
+
+    <h2>Upcoming things to do in Copenhagen</h2>
+    
+    <div class="row">
+
+<div class="column">
+    <h2>Filter and Search</h2>
+    <p>
+    Theater <input type="checkbox" id="theaterFilter"><br>
+    Music <input type="checkbox" id="musicFilter"><br>
+    Sports <input type="checkbox" id="sportsFilter"><br>
+    Sightseeing <input type="checkbox" id="sightseeingFilter"><br>
+    </p>
+    <p>
+        Search for events <br>
+        <input type="text" id="searchInput"> <input type="button" value="Search" name="searchButton" id="searchButton">
+    </p>
+</div>
+    
+<div class="column">
+    <h2>Event List</h2>
+    <p>Events</p>
+</div>
+<div class="column"> 
+    <h2>Calendar</h2> 
+    <p>Calendar content</p>
+<div id = "calendar">
+    <div id="calendar-container">
+        <p id="calendar-header"></p> 
+        <span id ="calendar-month-year"></span>
+        <p id="calendar-dates"></p> 
+    </div>
+</div>
+</body>
+</html>
